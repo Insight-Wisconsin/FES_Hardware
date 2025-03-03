@@ -1,5 +1,5 @@
-# FES
-Insight Wisconsin's FES R&amp;D team files
+# FES_Hardware
+Insight Wisconsin's FES R&amp;D team KiCad files
 
 # Required Software:
 **KiCad:** PCB layout and design software  
