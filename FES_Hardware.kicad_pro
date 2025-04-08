@@ -398,6 +398,10 @@
     [
       "66e7fb16-fffa-4599-b9bd-167a6cbf40e4",
       "MCU"
+    ],
+    [
+      "743d8807-83c0-4706-a128-4bbbd94e26d6",
+      "HBridge"
     ]
   ],
   "text_variables": {}
