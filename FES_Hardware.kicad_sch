@@ -44,6 +44,44 @@
 		)
 	)
 	(sheet
+		(at 158.75 116.84)
+		(size 115.57 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "743d8807-83c0-4706-a128-4bbbd94e26d6")
+		(property "Sheetname" "HBridge"
+			(at 158.75 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HBridge.kicad_sch"
+			(at 158.75 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "FES_Hardware"
+				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 21.59)
 		(size 116.84 74.93)
 		(fields_autoplaced yes)
