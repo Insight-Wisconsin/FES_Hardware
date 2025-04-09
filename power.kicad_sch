@@ -1076,20 +1076,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 50.8 10.16 0)
+			(property "Reference" "U3"
+				(at 42.8341 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "LM2586S"
-				(at 50.8 7.62 0)
+				(at 42.8341 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "TS7B"
@@ -1297,8 +1299,7 @@
 						(color 132 0 0 1)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 				(pin passive line
@@ -1328,16 +1329,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 20.32 10.16 0)
+			(property "Reference" "Ue"
+				(at 19.5389 10.16 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "ds4432u+"
-				(at 20.32 7.62 0)
+			(property "Value" "DS4432"
+				(at 19.5389 7.62 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -1603,8 +1604,7 @@
 						(color 132 0 0 1)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 			)
@@ -1992,7 +1992,7 @@
 		(at 91.44 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7844f8f0-14a9-4980-acac-0458febb5596")
+		(uuid "92fffa6b-ef6f-4bd2-8e89-70c1c9d652f5")
 	)
 	(junction
 		(at 153.67 64.77)
@@ -3224,7 +3224,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "400226fa-0ef1-4aa0-a561-dca6cd038751")
-		(property "Reference" "U2"
+		(property "Reference" "Ue"
 			(at 197.6311 92.71 0)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FES_Footprints:21-0036_U8&plus_1_MXM"
+		(property "Footprint" "21-0036_U8+1_MXM"
 			(at 217.17 102.87 0)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 		(instances
 			(project ""
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
-					(reference "U2")
+					(reference "Ue")
 					(unit 1)
 				)
 			)
@@ -3710,6 +3710,96 @@
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FES_SymbolLib:LM2586S-5.0_NOPB")
+		(at 41.91 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "872e4aa3-24c4-40a6-be30-d39176953ec7")
+		(property "Reference" "U3"
+			(at 84.7441 87.63 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM2586S"
+			(at 84.7441 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TS7B"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "LM2586S-5.0/NOPB"
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9d658167-b745-491e-a815-0486d6c8ac22")
+		)
+		(pin "2"
+			(uuid "1b0a83dc-d209-49de-979c-310e488e4ec8")
+		)
+		(pin "3"
+			(uuid "3d7a0ba0-4613-4ba1-8399-3b9ed5082c7b")
+		)
+		(pin "4"
+			(uuid "4e8eb348-6ad5-41f0-82aa-38eb6badd5ac")
+		)
+		(pin "1"
+			(uuid "f62cada6-0c15-408e-8281-180f0fb875df")
+		)
+		(pin "6"
+			(uuid "ea2540a8-6fe3-4cdf-a349-421985a67466")
+		)
+		(pin "7"
+			(uuid "6ac0911d-cdb5-4e54-a039-c08e3f9d2894")
+		)
+		(pin "5"
+			(uuid "2556ecab-ae3e-4fde-9c6d-e85b008494cb")
+		)
+		(instances
+			(project ""
+				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4457,93 +4547,6 @@
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FES_SymbolLib:LM2586S-5.0_NOPB")
-		(at 41.91 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1b271f9-425c-4668-b4bc-bedaeb8dca64")
-		(property "Reference" "U3"
-			(at 91.44 87.63 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "LM2586SX-ADJ"
-			(at 94.234 90.17 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "TS7B"
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "LM2586S-5.0/NOPB"
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 62.23 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "5f270837-6d9f-4c88-80cf-8437bdf94ec9")
-		)
-		(pin "2"
-			(uuid "de0ba996-cd01-485e-9cd1-a0b45e901968")
-		)
-		(pin "4"
-			(uuid "ffc06045-cd01-4368-a1bb-093fa3437796")
-		)
-		(pin "1"
-			(uuid "29047cfa-9cad-411f-b708-ce4db1f352be")
-		)
-		(pin "5"
-			(uuid "a7934655-7b9a-4900-b937-ff90bda2a5ed")
-		)
-		(pin "3"
-			(uuid "26342e3b-ae68-4054-866f-529d229ed757")
-		)
-		(pin "7"
-			(uuid "a7650ab5-48c4-4f45-af0d-bd95c10f0d89")
-		)
-		(pin "8"
-			(uuid "281dec53-5983-4e57-a56c-d3e669419eb6")
-		)
-		(instances
-			(project ""
-				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
-					(reference "U3")
 					(unit 1)
 				)
 			)
