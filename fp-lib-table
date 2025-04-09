@@ -4,4 +4,5 @@
   (lib (name "ESP32-DEVKITC_32UE")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/ESP32-DEVKITC-32UE")(options "")(descr ""))
   (lib (name "ROT_SW2925")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/ROT_SW2925/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "DFE201612P-470nH")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/DFE201612P-470nH")(options "")(descr ""))
+  (lib (name "FES_Footprints")(type "KiCad")(uri "${KIPRJMOD}/FES_Footprints.pretty")(options "")(descr ""))
 )
