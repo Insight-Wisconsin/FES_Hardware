@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FES_SymbolLib")(type "KiCad")(uri "${KIPRJMOD}/FES_SymbolLib.kicad_sym")(options "")(descr ""))
+)
