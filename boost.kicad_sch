@@ -749,8 +749,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U2"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -758,15 +758,15 @@
 				)
 			)
 			(property "Value" "TPS63802DLAR"
-				(at 0 0 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "DLA0010A"
-				(at 0 0 0)
+			(property "Footprint" "TPS63802DLAR:DLA0010A"
+				(at 0.254 -16.002 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -776,7 +776,7 @@
 				)
 			)
 			(property "Datasheet" "TPS63802DLAR"
-				(at 0 0 0)
+				(at 0 15.494 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -824,18 +824,6 @@
 				(polyline
 					(pts
 						(xy -12.7 -17.78) (xy 12.7 -17.78)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 17.78) (xy -12.7 -17.78)
 					)
 					(stroke
 						(width 0.2032)
@@ -1047,6 +1035,43 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(symbol "TPS63802DLAR_1_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 17.78) (xy -12.7 -17.78)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
 					)
 				)
 			)
@@ -1949,7 +1974,7 @@
 			)
 		)
 		(property "Footprint" "TPS63802DLAR:DLA0010A"
-			(at 101.6 71.12 0)
+			(at 101.854 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,7 +1984,7 @@
 			)
 		)
 		(property "Datasheet" "TPS63802DLAR"
-			(at 101.6 71.12 0)
+			(at 101.6 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1732016-e11f-43ba-a83b-0f59697515bd")
-		(property "Reference" "5V"
+		(property "Reference" "5V_Boost1"
 			(at 172.72 56.3879 0)
 			(effects
 				(font
@@ -2389,7 +2414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 175.26 60.96 0)
 			(effects
 				(font
@@ -2422,7 +2447,7 @@
 		(instances
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/cd32b677-73b6-40f3-905a-e4b052fd72c9"
-					(reference "5V")
+					(reference "5V_Boost1")
 					(unit 1)
 				)
 			)

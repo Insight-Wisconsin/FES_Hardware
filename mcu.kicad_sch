@@ -3699,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-DEVKITC-32UE:ESPRESSIF_ESP32-DEVKITC-32UE"
+		(property "Footprint" "ESP32-DEVKITC_32UE:ESPRESSIF_ESP32-DEVKITC-32UE"
 			(at 135.89 81.28 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 86.36 36.83 0)
 			(effects
 				(font

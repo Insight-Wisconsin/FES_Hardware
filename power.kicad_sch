@@ -2747,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.496 95.504 90)
 			(effects
 				(font
@@ -2799,7 +2799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b4a054a-d8ed-4d1b-a574-639b466d268c")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 162.56 119.3799 90)
 			(effects
 				(font
@@ -2817,7 +2817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 157.48 125.73 0)
 			(effects
 				(font
@@ -2850,7 +2850,7 @@
 		(instances
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
@@ -2884,7 +2884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.0048 74.93 0)
 			(effects
 				(font
@@ -3172,7 +3172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 158.496 112.014 90)
 			(effects
 				(font
@@ -3240,7 +3240,7 @@
 				)
 			)
 		)
-		(property "Footprint" "21-0036_U8+1_MXM"
+		(property "Footprint" "FES_Footprints:21-0036_U8&plus_1_MXM"
 			(at 217.17 102.87 0)
 			(effects
 				(font
@@ -3330,7 +3330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 85.344 127.254 90)
 			(effects
 				(font
@@ -3673,7 +3673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 63.246 105.664 90)
 			(effects
 				(font
@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TS7B"
+		(property "Footprint" "FES_Footprints:TS7B"
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -4030,7 +4030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 229.616 96.774 90)
 			(effects
 				(font
@@ -4166,7 +4166,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 149.5552 74.93 0)
 			(effects
 				(font
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 182.5752 91.44 0)
 			(effects
 				(font
@@ -4371,7 +4371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 91.1352 77.47 0)
 			(effects
 				(font
@@ -4440,7 +4440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 227.076 112.014 90)
 			(effects
 				(font
@@ -4510,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 87.3252 139.7 0)
 			(effects
 				(font
@@ -4777,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 220.726 96.774 90)
 			(effects
 				(font
@@ -4829,7 +4829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff481da9-6ce2-4d29-a451-1fe7e88e5fbf")
-		(property "Reference" "HV_OUT"
+		(property "Reference" "HV_OUT1"
 			(at 156.21 55.1179 0)
 			(effects
 				(font
@@ -4847,7 +4847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5019_Minature"
 			(at 158.75 59.69 0)
 			(effects
 				(font
@@ -4880,7 +4880,7 @@
 		(instances
 			(project ""
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/9d03af3c-7e27-487a-be84-d59389aa1574"
-					(reference "HV_OUT")
+					(reference "HV_OUT1")
 					(unit 1)
 				)
 			)
