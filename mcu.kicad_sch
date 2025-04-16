@@ -1252,8 +1252,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 12.7 0)
+			(property "Reference" "SW1"
+				(at -1.27 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1261,14 +1261,14 @@
 				)
 			)
 			(property "Value" "SW_Rotary_1x8_MP"
-				(at 10.16 -10.16 0)
+				(at -1.27 13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ROT_SW2925:2925_ADA"
 				(at -1.27 0 0)
 				(effects
 					(font
@@ -1748,24 +1748,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 		(symbol "power:+5V"
@@ -2120,10 +2102,6 @@
 	(no_connect
 		(at 151.13 83.82)
 		(uuid "946481c7-fdc2-45d9-a2af-322c513ef0cb")
-	)
-	(no_connect
-		(at 50.8 66.04)
-		(uuid "956eaf59-0d8a-44dd-bcd3-94df97756ee3")
 	)
 	(no_connect
 		(at 120.65 83.82)
@@ -3660,9 +3638,6 @@
 		)
 		(pin "5"
 			(uuid "27d63caa-145f-4b37-b58f-96255b0382d0")
-		)
-		(pin "MP"
-			(uuid "f59f8dbe-306f-4696-88db-d6e91bebcd70")
 		)
 		(instances
 			(project ""
