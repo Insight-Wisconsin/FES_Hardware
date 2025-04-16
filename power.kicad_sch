@@ -3532,7 +3532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "FES_Footprints:WE 750311691"
 			(at 116.84 71.12 0)
 			(effects
 				(font
