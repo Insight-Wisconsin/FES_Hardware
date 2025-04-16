@@ -5,6 +5,193 @@
 	(uuid "2688398e-f261-4ccd-a284-40865f4a63da")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1359,6 +1546,12 @@
 		(uuid "2e01c2a1-7610-44d2-bdbc-ecc3e454c7cf")
 	)
 	(junction
+		(at 138.43 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38dd3633-d9fa-465b-95b6-90c5ff5a30b5")
+	)
+	(junction
 		(at 115.57 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1375,6 +1568,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65bc8a98-ab23-47e4-828b-2e958054e622")
+	)
+	(junction
+		(at 162.56 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9574dfc8-7d3f-4e3a-9f8b-e7520416f21f")
 	)
 	(junction
 		(at 175.26 99.06)
@@ -1429,6 +1628,16 @@
 			(type default)
 		)
 		(uuid "0f8ef25a-2b2d-4963-a78d-bc3b62173247")
+	)
+	(wire
+		(pts
+			(xy 138.43 106.68) (xy 138.43 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bacfd26-8988-47f1-bb37-25531a2f408e")
 	)
 	(wire
 		(pts
@@ -1512,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 140.0236 99.06)
+			(xy 137.16 99.06) (xy 138.43 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1539,6 +1748,16 @@
 			(type default)
 		)
 		(uuid "3c619c67-e5fc-4e52-854d-d11583c23b8f")
+	)
+	(wire
+		(pts
+			(xy 138.43 99.06) (xy 140.0236 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488dd6ed-984e-43ce-9057-d6b07d11ddcf")
 	)
 	(wire
 		(pts
@@ -1569,6 +1788,16 @@
 			(type default)
 		)
 		(uuid "556e3fb5-5374-42ee-a6ef-e991637bea2c")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 163.5064 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a00ea70-fa94-4c9b-bf18-f2890a02227a")
 	)
 	(wire
 		(pts
@@ -1632,7 +1861,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 163.5064 99.06)
+			(xy 161.29 99.06) (xy 162.56 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1742,6 +1971,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 106.68) (xy 162.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad237c18-6d4e-4541-bbf9-98fe3b49a020")
+	)
+	(wire
+		(pts
 			(xy 189.23 90.17) (xy 189.23 81.28)
 		)
 		(stroke
@@ -1749,6 +1988,16 @@
 			(type default)
 		)
 		(uuid "b0cdf4ea-2955-4931-93d8-07ced80500ca")
+	)
+	(wire
+		(pts
+			(xy 151.13 106.68) (xy 162.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f86164-5321-4034-990f-d9df47b12ccf")
 	)
 	(wire
 		(pts
@@ -1879,6 +2128,16 @@
 			(type default)
 		)
 		(uuid "eac34684-cd6d-4aa2-8ed9-b30e319c4731")
+	)
+	(wire
+		(pts
+			(xy 148.59 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda2f00a-6585-4892-86d0-12e5b79abc8a")
 	)
 	(wire
 		(pts
@@ -2463,16 +2722,16 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 177.8 92.71 0)
+		(at 177.8 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "4ab91c8f-1cb9-494c-8dd3-473843b909dd")
-		(property "Reference" "Q3"
-			(at 171.45 91.4399 0)
+		(uuid "4b95e685-1b22-4941-adee-08a3253c4b73")
+		(property "Reference" "Q4"
+			(at 171.45 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2740,7 @@
 			)
 		)
 		(property "Value" "STD5N20L"
-			(at 171.45 93.9799 0)
+			(at 171.45 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2749,7 @@
 			)
 		)
 		(property "Footprint" "FES_Footprints:STD5N"
-			(at 172.72 90.17 0)
+			(at 172.72 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2758,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 177.8 105.41 0)
+			(at 177.8 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2508,7 +2767,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 177.8 92.71 0)
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2776,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 177.8 109.855 0)
+			(at 177.8 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2785,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 177.8 111.76 0)
+			(at 177.8 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2794,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 177.8 107.95 0)
+			(at 177.8 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,18 +2803,18 @@
 			)
 		)
 		(pin "3"
-			(uuid "19161662-7c0a-42c2-ab09-b6e58df01248")
+			(uuid "067b42ea-1988-4079-8c86-0236d56672af")
 		)
 		(pin "2"
-			(uuid "64523f25-9d55-4e47-a535-ce4714c5c9e2")
+			(uuid "e757a8b9-6388-4fd3-a022-7f6f0a5da063")
 		)
 		(pin "1"
-			(uuid "d7392b3e-1de6-4418-b494-70693aae1bd0")
+			(uuid "cb97f574-3576-4a76-ad3b-b2f208cb1744")
 		)
 		(instances
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
-					(reference "Q3")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -2665,105 +2924,6 @@
 			(project ""
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 123.19 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d4044e4-a820-4d44-ad43-e32df06c9427")
-		(property "Reference" "Q2"
-			(at 128.778 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STD5N20L"
-			(at 128.778 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "FES_Footprints:STD5N"
-			(at 128.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 123.19 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 123.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 123.19 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 123.19 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 123.19 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "fa6018c7-58b1-4ab1-aaf3-2c9b80ae9f70")
-		)
-		(pin "2"
-			(uuid "a9db53c1-dfb2-4488-bf32-bb7bb1ba2214")
-		)
-		(pin "1"
-			(uuid "6f6fb517-101c-4ada-8042-05661e27fd07")
-		)
-		(instances
-			(project "FES_Hardware"
-				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -2899,6 +3059,106 @@
 			(project "FES_Hardware"
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 123.19 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74cc84a1-f2af-46c1-b5fd-c2a5c0db9496")
+		(property "Reference" "Q2"
+			(at 129.54 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STD5N20L"
+			(at 129.54 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FES_Footprints:STD5N"
+			(at 128.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 123.19 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 123.19 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 123.19 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 123.19 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d069c673-ba8e-4b0f-bec2-393e9d51814c")
+		)
+		(pin "2"
+			(uuid "68a08ab3-7dcf-4180-ade9-1e53ddc7825f")
+		)
+		(pin "1"
+			(uuid "a70815dd-41ca-49c7-bd1b-61e8f7091553")
+		)
+		(instances
+			(project "FES_Hardware"
+				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3336,6 +3596,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 177.8 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1cc2257-9854-45c1-ba47-9de174a37caa")
+		(property "Reference" "Q3"
+			(at 171.45 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STD5N20L"
+			(at 171.45 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FES_Footprints:STD5N"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 177.8 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 177.8 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 177.8 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "718843e5-b4f4-43bb-a465-ff1f7d184b04")
+		)
+		(pin "2"
+			(uuid "c781b8cf-aea6-46d0-ab49-8f021c3b83b1")
+		)
+		(pin "1"
+			(uuid "44246fc4-c933-42c3-bf8e-40a99e4b3584")
+		)
+		(instances
+			(project "FES_Hardware"
+				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 167.3164 99.06 90)
 		(unit 1)
@@ -3405,17 +3765,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 177.8 105.41 0)
-		(mirror y)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 151.13 111.76 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "dd817409-bf91-4b32-a784-15e0ae9c23f8")
-		(property "Reference" "Q4"
-			(at 171.45 107.188 0)
+		(uuid "f4f5d41b-057b-4aa7-805e-dbf683175223")
+		(property "Reference" "J1"
+			(at 140.462 112.522 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3423,8 +3782,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STD5N20L"
-			(at 171.45 109.728 0)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 140.462 115.062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3432,8 +3791,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "FES_Footprints:STD5N"
-			(at 172.72 102.87 0)
+		(property "Footprint" "Screw-Terminal-1x2:691137710002"
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3441,8 +3800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 177.8 118.11 0)
+		(property "Datasheet" "~"
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3450,55 +3809,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 177.8 105.41 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 151.13 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 177.8 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 177.8 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 177.8 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f934addd-af47-47e7-8780-b25cb18d3410")
-		)
-		(pin "2"
-			(uuid "65b60f55-699f-4f86-9e24-84b081d06d74")
 		)
 		(pin "1"
-			(uuid "be486dd7-bc8c-414b-bca5-56602c484f42")
+			(uuid "884f4039-3b89-404b-8565-bda9c0b43f27")
+		)
+		(pin "2"
+			(uuid "d56f7600-5107-4a68-ad71-df7757263b65")
 		)
 		(instances
-			(project "FES_Hardware"
+			(project ""
 				(path "/225cfa82-97e7-4320-90e1-4d94ef39f9f2/743d8807-83c0-4706-a128-4bbbd94e26d6"
-					(reference "Q4")
+					(reference "J1")
 					(unit 1)
 				)
 			)

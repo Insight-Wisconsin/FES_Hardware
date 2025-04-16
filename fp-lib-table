@@ -5,4 +5,5 @@
   (lib (name "ROT_SW2925")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/ROT_SW2925/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "DFE201612P-470nH")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/DFE201612P-470nH")(options "")(descr ""))
   (lib (name "FES_Footprints")(type "KiCad")(uri "${KIPRJMOD}/FES_Footprints.pretty")(options "")(descr ""))
+  (lib (name "Screw-Terminal-1x2")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/Screw-Terminal-1x2")(options "")(descr ""))
 )

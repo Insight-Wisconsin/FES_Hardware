@@ -3,4 +3,5 @@
   (lib (name "TPS63802DLAR")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/ul_TPS63802DLAR/KiCADv6/2025-03-27_21-25-20.kicad_sym")(options "")(descr ""))
   (lib (name "ESP32-DEVKITC-32UE")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/ESP32-DEVKITC-32UE/ESP32-DEVKITC-32UE.kicad_sym")(options "")(descr ""))
   (lib (name "FES_SymbolLib")(type "KiCad")(uri "${KIPRJMOD}/FES_SymbolLib.kicad_sym")(options "")(descr ""))
+  (lib (name "Screw-Terminal-1x2")(type "KiCad")(uri "C:/Users/rdrah/OneDrive/Documents/KiCad/8.0/footprints/Screw-Terminal-1x2/691137710002.kicad_sym")(options "")(descr ""))
 )
