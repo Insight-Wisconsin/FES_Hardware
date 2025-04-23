@@ -2381,7 +2381,7 @@
 			)
 		)
 	)
-	(global_label "HV_Out"
+	(global_label "HV_OUT"
 		(shape input)
 		(at 147.32 73.66 180)
 		(fields_autoplaced yes)
@@ -2393,7 +2393,7 @@
 		)
 		(uuid "ecaa0645-5147-4335-b15c-d38e95428728")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.7429 73.66 0)
+			(at 137.3195 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
